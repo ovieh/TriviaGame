@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Song of Ice and Fire Trivia</title>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
-    <div class="flex-container">
-        <div class="flex-item">
-            <h1>Text Text Text!</h1>
+    <div class="container">
+        <h1 class="header">A Song of Ice and Fire Trivia</h1>
+        <button id="start">Start</button>
+        <div id="game-space">
+            <div id="show-time"></div>
+            <div id="prompt"></div>
+            <div id="selection_1" class="selection"></div>
+            <div id="selection_2" class="selection"></div>
+            <div id="selection_3" class="selection"></div>
+            <div id="selection_4" class="selection"></div>
+            
         </div>
     </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
+
 </html>
