@@ -28,7 +28,7 @@ button {
     background-color:  #242d36;
     border: none;
     color: tan;
-    padding: 40px 128px;
+    padding: 20px 128px;
     text-align: center;
     text-decoration: none;
     /* display: inline-block; */
@@ -48,6 +48,7 @@ button {
     margin-top: 20px;
     font-size: 30px;
     width: 600px;
+
 }
 #show-time {
     width: 100px;
@@ -72,4 +73,9 @@ button {
 
 img {
     max-height: 200px;
+}
+
+#image {
+    width: 400px;
+    margin: 0 auto;
 }

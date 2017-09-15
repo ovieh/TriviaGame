@@ -35,25 +35,25 @@ $(function () {
             gifName: "ghost"
         },
         {
-            prompt: "What is the house sword of Hourse Mormont",
+            prompt: "What is the house sword of Hourse Mormont?",
             choices: ["Longclaw", "Ice", "Widowsbane", "Oathkeeper"],
             answer: 0,
             gifName: "longclaw"
         },
         {
-            prompt: "Where is the last place Lyanna Stark was seen alive",
+            prompt: "Where is the last place Lyanna Stark was seen alive?",
             choices: ["The Red Keep","The Tower of Joy", "The Trident", "West Phildelphia"],
             answer: 1,
             gifName: "joy"
         },
         {
-            prompt: "Besides Dragonglass, what is the only other subtance that can kill Wights",
+            prompt: "Besides Dragonglass, what is the only other subtance that can kill Wights?",
             choices: ["Valaryian Steel", "Wildfire","Raven's Feather", "Eye of Newt"],
             answer: 0,
             gifName: "sword"
         },
         {
-            prompt: "How many times has Beric Dondarrion been resurrected",
+            prompt: "How many times has Beric Dondarrion been resurrected?",
             choices: ["Three", "Once", "Six", "Five"],
             answer: 2,
             gifName: "beric"   
@@ -66,7 +66,7 @@ $(function () {
         },
         {
             prompt: "What is not one of Dany's titles?",
-            choices: ["Queen of the Andals", "Mother of Dragons", "Keeper of The Real", "Breaker of Chains"],
+            choices: ["Queen of the Andals", "Mother of Dragons", "Keeper of The Real", "Breaker of Chains?"],
             answer: 2, 
             gifName: "titles"
         }
