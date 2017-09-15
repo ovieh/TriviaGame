@@ -24,8 +24,7 @@ body {
     padding: 10px 0;
     
 }
-
-#start {
+button {
     background-color:  #242d36;
     border: none;
     color: tan;
@@ -36,11 +35,14 @@ body {
     font-size: 60px;
     font-family: 'Crimson Text', serif;
     border-radius: 5px;
-
     display: block;
     margin: 0 auto;
+
+}
+#start {
     margin-top: 70px;
 }
+
 #game-space {
     margin: 0 auto;
     margin-top: 20px;
