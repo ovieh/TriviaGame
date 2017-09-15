@@ -9,8 +9,8 @@ body {
 
 .container {
     margin: 0 auto;
-    height: 500px;
-    width: 1000px;
+    min-height: 500px;
+    /* width: 1000px; */
     background: rgba(218, 203, 163, 0.75);
 }
 
@@ -24,7 +24,7 @@ body {
     padding: 10px 0;
     
 }
-button {
+.my-button {
     background-color:  #242d36;
     border: none;
     color: tan;
@@ -37,7 +37,7 @@ button {
     border-radius: 5px;
     display: block;
     margin: 0 auto;
-    margin-top: 5px;a
+    margin-top: 5px;
 }
 #start {
     margin-top: 70px;
@@ -47,7 +47,7 @@ button {
     margin: 0 auto;
     margin-top: 20px;
     font-size: 30px;
-    width: 600px;
+    /* width: 600px; */
 
 }
 #show-time {
@@ -70,12 +70,8 @@ button {
     background: rgba(145, 144, 144, 0.3);
 }
 
-
-img {
-    max-height: 200px;
-}
-
-#image {
-    width: 400px;
+#display {
+    width: 60%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }

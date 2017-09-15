@@ -148,7 +148,7 @@ $(function () {
         $("#answer-screen").show();
         $(".selection").hide();
         var gif = $("<img>");
-        gif.attr("src", "assets/images/" + questions[questionCount - 1].gifName + ".gif");
+        gif.attr("src", "assets/images/" + questions[questionCount - 1].gifName + ".gif").addClass("img-fluid");
         $("#image").html(gif);
 
         if (answerStatus) {
