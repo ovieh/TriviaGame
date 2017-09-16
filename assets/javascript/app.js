@@ -66,7 +66,7 @@ $(function () {
         },
         {
             prompt: "What is not one of Dany's titles?",
-            choices: ["Queen of the Andals", "Mother of Dragons", "Keeper of The Real", "Breaker of Chains?"],
+            choices: ["Queen of the Andals", "Mother of Dragons", "Keeper of The Real", "Breaker of Chains"],
             answer: 2, 
             gifName: "titles"
         }
